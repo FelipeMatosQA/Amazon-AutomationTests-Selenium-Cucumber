@@ -1,0 +1,57 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "teste-inicial;",
+        "after": [
+          {
+            "result": {
+              "duration": 105200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28734348299,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu estou na tela inicial",
+            "match": {
+              "location": "TestSteps.que_eu_estou_na_tela_inicial()"
+            },
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Teste"
+          }
+        ]
+      }
+    ],
+    "name": "Teste inicial",
+    "description": "\r\nSou um usuário e quero acessar o site.",
+    "id": "teste-inicial",
+    "keyword": "Funcionalidade",
+    "uri": "Teste.feature"
+  }
+]
